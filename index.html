@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PUP Map</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <img
+        src="./img/stamesa.jpg"
+        alt="Interactive map of PUP Sta. Mesa campus"
+        usemap="#pupmap"
+      />
+      <map name="pupmap">
+        <!-- 1. The Pylon -->
+        <area
+          shape="poly"
+          coords="1082, 543, 1110, 566, 1110, 581, 1107, 581, 1104, 590, 1095, 593, 1085, 588, 1073, 591, 1035, 564"
+          data-img="./img/pylon.jpg"
+          data-title="The Pylon"
+          data-info="The Pylon is an iconic structure at PUP Sta. Mesa, often used as a meeting point."
+        />
+
+        <!-- 2. The Mural -->
+        <area
+          shape="circle"
+          coords="1027, 600, 15"
+          data-img="./img/mural.jpg"
+          data-title="The Mural"
+          data-info="The Mural showcases the rich history and culture of PUP through vibrant artwork."
+        />
+
+        <!-- 3. Visitor's Lounge -->
+        <area
+          shape="circle"
+          coords="1040, 535, 15"
+          data-img="./img/visitorsLounge.png"
+          data-title="Visitor's Lounge"
+          data-info="The Visitor's Lounge offers a comfortable space for guests to relax and wait."
+        />
+
+        <!-- 4. Open Court -->
+        <area
+          shape="poly"
+          coords="1078, 489, 1190, 544, 1128, 567, 1021, 504"
+          data-img="./img/opencourt.png"
+          data-title="Open Court"
+          data-info="The Open Court is a popular spot for students to gather and socialize."
+        />
+
+        <!-- 5. Lawn Tennis Court -->
+        <area
+          shape="poly"
+          coords="987, 436, 1066, 477, 966, 498, 908, 460"
+          data-img="./img/lawntenniscourt.jpg"
+          data-title="Lawn Tennis Court"
+          data-info="The Lawn Tennis Court is where students can enjoy a game of tennis during their free time."
+        />
+
+        <!-- 6. Basketball Court -->
+        <area
+          shape="poly"
+          coords="900, 393, 969, 430, 893, 448, 842, 406"
+          data-img="./img/backetballcourt.jpg"
+          data-title="Basketball Court"
+          data-info="The Basketball Court is a hub of activity, hosting games and practices for various teams."
+        />
+
+        <!-- 7. Souvenir Shop -->
+        <area
+          shape="circle"
+          coords="803, 473, 15"
+          data-img="./img/souvenirshop.jfif"
+          data-title="Souvenir Shop"
+          data-info="The Souvenir Shop offers a variety of PUP merchandise for students and visitors."
+        />
+
+        <!-- 8. Mabini Shrine -->
+        <area
+          shape="circle"
+          coords="713, 427, 15"
+          data-img="./img/mabinishrine.jpg"
+          data-title="Mabini Shrine"
+          data-info="The Mabini Shrine is a historical landmark dedicated to Apolinario Mabini, a national hero."
+        />
+
+        <!-- 9. Mabini Museum -->
+        <area
+          shape="circle"
+          coords="645, 433, 15"
+          data-img="./img/mabinimuseum.png"
+          data-title="Mabini Museum"
+          data-info="The Mabini Museum houses artifacts and exhibits related to the life of Apolinario Mabini."
+        />
+
+        <!-- 10. Obelisk -->
+        <area
+          shape="poly"
+          coords="732, 342, 735, 342, 738, 344, 739, 385, 743, 385, 751, 380, 763, 387, 763, 394, 773, 398, 770, 403, 698, 398, 707, 387, 730, 384"
+          data-img="./img/obelisk.webp"
+          data-title="Obelisk"
+          data-info="The Obelisk is a monument commemorating significant events in PUP's history."
+        />
+
+        <!-- 11. Freedom Park -->
+        <area
+          shape="circle"
+          coords="590, 412, 15"
+          data-img="./img/freedompark.jpg"
+          data-title="Freedom Park"
+          data-info="The Freedom Park is a serene area where students can unwind and enjoy nature."
+        />
+
+        <!-- 12. Fountain Park -->
+        <area
+          shape="poly"
+          coords="430, 464, 526, 460, 527, 440, 505, 440, 498, 436, 494, 436, 486, 441, 446, 443, 430, 461"
+          data-img="./img/fountainpark.jpg"
+          data-title="Fountain Park"
+          data-info="Fountain Park features a beautiful fountain and is a favorite spot for relaxation."
+        />
+
+        <!-- 13. Inter-faith Chapel -->
+        <area
+          shape="poly"
+          coords="296, 391, 278, 414, 266, 415, 248, 419, 202, 447, 243, 484, 341, 482, 375, 473, 412, 447, 415, 440, 413, 443, 399, 420, 353, 411, 325, 412"
+          data-img="./img/interfaith.jpg"
+          data-title="Inter-faith Chapel"
+          data-info="The Inter-faith Chapel provides a peaceful space for spiritual reflection and worship."
+        />
+
+        <!-- 14. Main Academic Building -->
+        <area
+          shape="poly"
+          coords="275, 265, 118, 314, 121, 335, 107, 344, 115, 395, 126, 413, 140, 421, 355, 388, 503, 421, 547, 397, 550, 344, 543, 336, 425, 314, 430, 305, 425, 267, 350, 263, 330, 275"
+          data-img="./img/mainacademicbldg.jpg"
+          data-title="Main Academic Building"
+          data-info="The Main Academic Building houses various classrooms and administrative offices."
+        />
+
+        <!-- 15. Gazebo -->
+        <area
+          shape="poly"
+          coords="61, 372, 76, 402, 96, 399, 96, 374, 94, 367, 89, 365, 73, 364"
+          data-img="./img/gazebo.jpg"
+          data-title="Gazebo"
+          data-info="The Gazebo is a charming spot for gatherings and outdoor activities."
+        />
+
+        <area
+          shape="circle"
+          coords="477, 487, 15"
+          data-img="./img/gazebo.jpg"
+          data-title="Gazebo"
+          data-info="The Gazebo is a charming spot for gatherings and outdoor activities."
+        />
+
+        <!-- 16. Grandstand -->
+        <area
+          shape="poly"
+          coords="544, 486, 549, 480, 552, 480, 555, 472, 550, 472, 553, 469, 556, 468, 551, 465, 552, 461, 563, 453, 696, 461, 695, 496, 692, 501, 634, 498, 630, 501, 603, 500, 599, 495, 545, 491"
+          data-img="./img/grabdstand.jpg"
+          data-title="Grandstand"
+          data-info="The Grandstand offers seating for spectators during sports events and ceremonies."
+        />
+
+        <!-- 17. Oval -->
+        <area
+          shape="poly"
+          coords="424, 500, 781, 521, 824, 532, 860, 546, 887, 564, 907, 591, 911, 608, 905, 638, 801, 686, 680, 687, 624, 645, 583, 664, 506, 660, 495, 679, 287, 659, 213, 617, 234, 559, 262, 539, 297, 524, 340, 512, 386, 503"
+          data-img="./img/oval.jpg"
+          data-title="Oval"
+          data-info="The Oval is a large open field used for various sports and recreational activities."
+        />
+
+        <!-- 18. Tahanan ng Atleta -->
+        <area
+          shape="poly"
+          coords="507, 661, 582, 666, 583, 670, 568, 684, 569, 689, 564, 698, 570, 706, 568, 711, 559, 708, 547, 713, 541, 712, 535, 713, 522, 720, 496, 703, 495, 684"
+          data-img="./img/tahananngatleta.jpg"
+          data-title="Tahanan ng Atleta"
+          data-info="The Tahanan ng Atleta is the residence for student-athletes at PUP."
+        />
+
+        <!-- 19. Gabriela Silang Building -->
+        <area
+          shape="poly"
+          coords="410, 699, 415, 698, 419, 693, 423, 690, 429, 690, 433, 691, 435, 693, 453, 689, 470, 714, 464, 714, 465, 753, 424, 763, 407, 733, 412, 729"
+          data-img="./img/gabrielasilang.jfif"
+          data-title="Gabriela Silang Building"
+          data-info="The Gabriela Silang Building is named after the Filipino revolutionary leader and houses various academic departments."
+        />
+
+        <!-- 20. Food and Nutrition Building -->
+        <area
+          shape="poly"
+          coords="83, 415, 131, 509, 140, 507, 138, 481, 157, 466, 121, 408, 100, 406"
+          data-img="./img/foodnutritionbldg.jpg"
+          data-title="Food and Nutrition Building"
+          data-info="The Food and Nutrition Building is dedicated to the study and research of food sciences."
+        />
+
+        <!-- 21. Facility Management Office -->
+
+        <!-- 22. Sampaguita Building -->
+        <area
+          shape="circle"
+          coords="441, 252, 15"
+          data-img="./img/sampaguitabldg.jpg"
+          data-title="Sampaguita Building"
+          data-info="The Sampaguita Building is one of the main academic buildings at PUP Sta. Mesa."
+        />
+
+        <area
+          shape="poly"
+          coords="367, 259, 406, 259, 404, 253, 436, 244, 454, 262, 454, 269, 442, 287, 431, 288, 427, 265, 364, 262"
+          data-img="./img/sampaguitabldg.jpg"
+          data-title="Sampaguita Building"
+          data-info="The Sampaguita Building is one of the main academic buildings at PUP Sta. Mesa."
+        />
+
+        <!-- 23. Student Center -->
+        <area
+          shape="circle"
+          coords="471, 267, 15"
+          data-img="./img/maingate.jpg"
+          data-title="Student Center"
+          data-info="The Student Center is a hub for student activities and organizations."
+        />
+
+        <area
+          shape="poly"
+          coords="461, 274, 450, 285, 450, 294, 487, 293, 480, 280"
+          data-img="./img/maingate.jpg"
+          data-title="Student Center"
+          data-info="The Student Center is a hub for student activities and organizations."
+        />
+
+        <!-- 24. Charlie Del Rosario Building -->
+        <area
+          shape="circle"
+          coords="553, 280, 15"
+          data-img="./img/cdrbldg.jpg"
+          data-title="Charlie Del Rosario Building"
+          data-info="The Charlie Del Rosario Building is named after a prominent figure in PUP's history and serves various academic functions."
+        />
+
+        <area
+          shape="poly"
+          coords="513, 238, 512, 244, 503, 261, 505, 294, 548, 293, 558, 240, 544, 234"
+          data-img="./img/cdrbldg.jpg"
+          data-title="Charlie Del Rosario Building"
+          data-info="The Charlie Del Rosario Building is named after a prominent figure in PUP's history and serves various academic functions."
+        />
+
+        <!-- 25. Linear Park -->
+        <area
+          shape="circle"
+          coords="558, 221, 15"
+          data-img="./img/linearpark.jpeg"
+          data-title="Linear Park"
+          data-info="The Linear Park is a scenic walkway that provides a relaxing environment for students and visitors."
+        />
+
+        <!-- 26. Laboratory High School Building -->
+        <area
+          shape="circle"
+          coords="624, 235, 15"
+          data-img="./img/labhigh.jpg"
+          data-title="Laboratory High School Building"
+          data-info="The Laboratory High School Building houses the high school department of PUP."
+        />
+
+        <area
+          shape="poly"
+          coords="608, 194, 695, 193, 695, 196, 704, 196, 704, 224, 635, 242, 634, 257, 582, 255, 583, 220, 592, 198, 608, 198"
+          data-img="./img/labhigh.jpg"
+          data-title="Laboratory High School Building"
+          data-info="The Laboratory High School Building houses the high school department of PUP."
+        />
+
+        <!-- 27. Printing Press Building -->
+        <area
+          shape="circle"
+          coords="663, 175, 15"
+          data-img="./img/printingpress.jpg"
+          data-title="Printing Press Building"
+          data-info="The Printing Press Building is where various printing and publishing activities take place."
+        />
+
+        <!-- 28. Property and Supply Management Office -->
+        <area
+          shape="circle"
+          coords="718, 196, 15"
+          data-img="./img/maingate.jpg"
+          data-title="Property and Supply Management Office"
+          data-info="The Property and Supply Management Office oversees the inventory and distribution of university resources."
+        />
+
+        <!-- 29. Water Tower -->
+        <area
+          shape="circle"
+          coords="741, 217, 15"
+          data-img="./img/watertower.jpg"
+          data-title="Water Tower"
+          data-info="The Water Tower provides essential water supply to the campus."
+        />
+
+        <area
+          shape="poly"
+          coords="728, 208, 752, 208, 762, 213, 747, 233, 747, 238, 738, 241, 738, 231, 721, 215"
+          data-img="./img/watertower.jpg"
+          data-title="Water Tower"
+          data-info="The Water Tower provides essential water supply to the campus."
+        />
+
+        <!-- 30. Ninoy Aquino Learning Resource Center -->
+        <area
+          shape="circle"
+          coords="770, 271, 15"
+          data-img="./img/nalrc.jpg"
+          data-title="Ninoy Aquino Learning Resource Center"
+          data-info="The Ninoy Aquino Learning Resource Center is a hub for academic resources and study materials."
+        />
+
+        <area
+          shape="poly"
+          coords="609, 279, 779, 229, 824, 238, 823, 261, 840, 266, 839, 314, 803, 320, 725, 308, 655, 335, 608, 322"
+          data-img="./img/nalrc.jpg"
+          data-title="Ninoy Aquino Learning Resource Center"
+          data-info="The Ninoy Aquino Learning Resource Center is a hub for academic resources and study materials."
+        />
+
+        <!-- 31. Lagoon Commercial Spaces -->
+        <area
+          shape="circle"
+          coords="579, 307, 15"
+          data-img="./img/lagoon.jpg"
+          data-title="Lagoon Commercial Spaces"
+          data-info="The Lagoon Commercial Spaces offer various shops and eateries for students and visitors."
+        />
+
+        <!-- 32. Amphitheater -->
+        <area
+          shape="circle"
+          coords="502, 312, 15"
+          data-img="./img/amphitheater.jpg"
+          data-title="Amphitheater"
+          data-info="The Amphitheater is an outdoor venue for performances and events."
+        />
+
+        <!-- 33. Lagoon Park -->
+
+        <!-- 34. Nutrition & Food Technology Research and Development Center Building -->
+        <area
+          shape="circle"
+          coords="860, 260, 15"
+          data-img="./img/nftrdcbldg.jpg"
+          data-title="Nutrition & Food Technology Research and Development Center Building"
+          data-info="The Nutrition & Food Technology Research and Development Center Building focuses on research in food technology and nutrition."
+        />
+
+        <area
+          shape="poly"
+          coords="831, 263, 851, 260, 875, 262, 928, 284, 928, 299, 868, 309, 839, 298, 840, 265"
+          data-img="./img/nftrdcbldg.jpg"
+          data-title="Nutrition & Food Technology Research and Development Center Building"
+          data-info="The Nutrition & Food Technology Research and Development Center Building focuses on research in food technology and nutrition."
+        />
+
+        <!-- 35. Human Kinetics Building -->
+        <area
+          shape="circle"
+          coords="843, 334, 15"
+          data-img="./img/humankinetics.jfif"
+          data-title="Human Kinetics Building"
+          data-info="The Human Kinetics Building is dedicated to the study of physical education and sports sciences."
+        />
+
+        <area
+          shape="poly"
+          coords="787, 322, 936, 298, 952, 309, 950, 327, 949, 327, 947, 313, 929, 305, 875, 315, 876, 339, 803, 352, 787, 333"
+          data-img="./img/humankinetics.jfif"
+          data-title="Human Kinetics Building"
+          data-info="The Human Kinetics Building is dedicated to the study of physical education and sports sciences."
+        />
+
+        <!-- 36. Tahanan ng Alumni -->
+        <area
+          shape="circle"
+          coords="929, 327, 15"
+          data-img="./img/tahananngalumni.png"
+          data-title="Tahanan ng Alumni"
+          data-info="The Tahanan ng Alumni serves as a gathering place for PUP alumni."
+        />
+
+        <area
+          shape="poly"
+          coords="879, 315, 931, 308, 946, 314, 945, 337, 885, 347, 878, 341"
+          data-img="./img/tahananngalumni.png"
+          data-title="Tahanan ng Alumni"
+          data-info="The Tahanan ng Alumni serves as a gathering place for PUP alumni."
+        />
+
+        <!-- 37. Swimming Pool -->
+        <area
+          shape="circle"
+          coords="960, 364, 15"
+          data-img="./img/pool.jpg"
+          data-title="Swimming Pool"
+          data-info="The Swimming Pool is a facility for aquatic sports and recreational swimming."
+        />
+
+        <area
+          shape="poly"
+          coords="903, 345, 956, 336, 962, 339, 975, 331, 958, 320, 985, 320, 1050, 350, 998, 377, 996, 384, 979, 394"
+          data-img="./img/pool.jpg"
+          data-title="Swimming Pool"
+          data-info="The Swimming Pool is a facility for aquatic sports and recreational swimming."
+        />
+
+        <!-- 38. Multi-purpose Building -->
+        <area
+          shape="poly"
+          coords="997, 376, 1050, 350, 1068, 347, 1086, 347, 1258, 414, 1163, 435, 1162, 465, 1168, 468, 1165, 485, 1150, 490, 995, 490"
+          data-img="./img/multipurposebldg.jpg"
+          data-title="Multi-purpose Building"
+          data-info="The Multi-purpose Building hosts various events, activities, and functions for the university community."
+        />
+
+        <!-- 39. Engineering and Science Research Center -->
+        <area
+          shape="poly"
+          coords="1163, 436, 1281, 408, 1304, 418, 1302, 432, 1312, 436, 1303, 499, 1209, 525, 1159, 500, 1159, 495, 1164, 494, 1167, 467, 1161, 465"
+          data-img="./img/esrc.jpeg"
+          data-title="Engineering and Science Research Center"
+          data-info="The Engineering and Science Research Center is a facility dedicated to advanced research in engineering and science disciplines."
+        />
+
+        <!-- 40. Communication Building -->
+        <area
+          shape="circle"
+          coords="1038, 147, 15"
+          data-img="./img/communicationbldg.jpg"
+          data-title="Communication Building"
+          data-info="The Communication Building houses the College of Communication, focusing on media and communication studies."
+        />
+
+        <area
+          shape="poly"
+          coords="1001, 149, 1040, 133, 1050, 138, 1053, 144, 1082, 133, 1087, 132, 1093, 137, 1092, 144, 1056, 166, 1000, 160"
+          data-img="./img/communicationbldg.jpg"
+          data-title="Communication Building"
+          data-info="The Communication Building houses the College of Communication, focusing on media and communication studies."
+        />
+
+        <!-- 41. PUP Theater -->
+        <area
+          shape="circle"
+          coords="1050, 117, 15"
+          data-img="./img/theater.jpg"
+          data-title="PUP Theater"
+          data-info="The PUP Theater is a venue for performing arts, hosting plays, musicals, and other cultural events."
+        />
+
+        <area
+          shape="poly"
+          coords="1024, 125, 1041, 118, 1067, 119, 1082, 127, 1081, 133, 1050, 138, 1040, 133, 1024, 135"
+          data-img="./img/theater.jpg"
+          data-title="PUP Theater"
+          data-info="The PUP Theater is a venue for performing arts, hosting plays, musicals, and other cultural events."
+        />
+
+        <!-- 42. Engineering and Architecture Building -->
+        <area
+          shape="circle"
+          coords="1098, 112, 15"
+          data-img="./img/cea.jpg"
+          data-title="Engineering and Architecture Building"
+          data-info="The Engineering and Architecture Building is home to the College of Engineering and Architecture, offering state-of-the-art facilities for students."
+        />
+
+        <area
+          shape="poly"
+          coords="1077, 86, 1119, 86, 1124, 90, 1127, 105, 1125, 124, 1072, 119, 1072, 90"
+          data-img="./img/cea.jpg"
+          data-title="Engineering and Architecture Building"
+          data-info="The Engineering and Architecture Building is home to the College of Engineering and Architecture, offering state-of-the-art facilities for students."
+        />
+
+        <!-- 43. Condotel -->
+        <area
+          shape="poly"
+          coords="937, 43, 973, 40, 999, 51, 995, 77, 958, 77, 936, 70"
+          data-img="./img/condotel.jfif"
+          data-title="Condotel"
+          data-info="The Condotel is primarily used as student housing and dormitory space while also contributing to the university's classroom needs and resource generation efforts."
+        />
+
+        <!-- 44. NDC Tennis Court and Club House -->
+        <area
+          shape="circle"
+          coords="1155, 125, 15"
+          data-img="./img/ndc.jpg"
+          data-title="NDC Tennis Court and Club House"
+          data-info="The NDC Tennis Court and Club House provides facilities for tennis enthusiasts and serves as a social hub for members."
+        />
+
+        <!-- 45. NDC Covered Court -->
+        <area
+          shape="circle"
+          coords="1155, 94, 15"
+          data-img="./img/ndccc.jpg"
+          data-title="NDC Covered Court"
+          data-info="The NDC Covered Court is a versatile venue for sports and events, accommodating various activities regardless of weather conditions."
+        />
+
+        <!-- 46. Business Processing Office -->
+        <area
+          shape="circle"
+          coords="1227, 100, 15"
+          data-img="./img/maingate.jpg"
+          data-title="Business Processing Office"
+          data-info="The Business Processing Office manages the administrative and financial operations of the university."
+        />
+
+        <area
+          shape="poly"
+          coords="1199, 102, 1260, 101, 1270, 110, 1270, 120, 1209, 120, 1199, 108"
+          data-img="./img/maingate.jpg"
+          data-title="Business Processing Office"
+          data-info="The Business Processing Office manages the administrative and financial operations of the university."
+        />
+
+        <!-- 47. Information Technology Building -->
+        <area
+          shape="circle"
+          coords="1227, 55, 15"
+          data-img="./img/itechbldg.jpg"
+          data-title="Information Technology Building"
+          data-info="The Information Technology Building houses the College of Information Technology, providing cutting-edge facilities for IT education and research."
+        />
+
+        <area
+          shape="poly"
+          coords="1162, 67, 1171, 59, 1219, 60, 1235, 68, 1249, 82, 1246, 96, 1240, 96, 1234, 92, 1223, 92, 1213, 82, 1195, 81, "
+          data-img="./img/itechbldg.jpg"
+          data-title="Information Technology Building"
+          data-info="The Information Technology Building houses the College of Information Technology, providing cutting-edge facilities for IT education and research."
+        />
+
+        <!-- 48. Antique House -->
+        <area
+          shape="circle"
+          coords="1143, 64, 15"
+          data-img="./img/antiquehouse.jpg"
+          data-title="Antique House"
+          data-info="The Antique House is a historical building that showcases artifacts and memorabilia from PUP's rich history."
+        />
+
+        <!-- 49. Graduate School -->
+        <area
+          shape="circle"
+          coords="1314, 22, 15"
+          data-img="./img/graduateschool.jpg"
+          data-title="Graduate School"
+          data-info="The Graduate School offers advanced degree programs and research opportunities for postgraduate students."
+        />
+
+        <!-- 50. Hasmin Building -->
+        <area
+          shape="circle"
+          coords="1392, 45, 15"
+          data-img="./img/hasminbldg.jpg"
+          data-title="Hasmin Building"
+          data-info="The Hasmin Building is an academic facility that supports various educational programs and activities."
+        />
+
+        <area
+          shape="poly"
+          coords="1377, 16, 1413, 14, 1429, 23, 1426, 41, 1404, 40, 1384, 37, 1376, 35"
+          data-img="./img/hasminbldg.jpg"
+          data-title="Hasmin Building"
+          data-info="The Hasmin Building is an academic facility that supports various educational programs and activities."
+        />
+      </map>
+      <div class="tooltip-card" id="tooltip">
+        <img id="tooltip-img" src="" alt="" />
+        <h3></h3>
+        <p></p>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

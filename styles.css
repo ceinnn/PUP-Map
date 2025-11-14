@@ -1,0 +1,36 @@
+map {
+  position: relative;
+  display: inline-block;
+}
+
+main {
+  height: 950px;
+}
+
+.tooltip-card {
+  position: absolute;
+  background: #fff;
+  border: 1px solid #2e2e2e;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: none;
+  max-width: 250px;
+  z-index: 999;
+  pointer-events: none;
+}
+
+.tooltip-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+.tooltip-card h3 {
+  margin-bottom: 5px;
+}
+
+.tooltip-card p {
+  font-size: 14px;
+}
